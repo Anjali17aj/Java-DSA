@@ -45,13 +45,26 @@ a. Arithmetic operators
  pre Increment -> ++a    1. value change then value used
  post Increment -> a++    2. old value used then value changed
  
- (ternary).
+ -ternary- 3 operands
+ variabe = condition? statement1: statement2;
+
  b.Relational operators ==,!=,>,<,>=,<= 
  c.logical operators && || !
  d.Bitwise operators(Bit manipulation)
  e.Assignment operators:  A=A+10   B=B-5
 
+
  24. Operator precedence determines the order in which the operators in an expression are evaluated.For eg –int x = 3 * 4 - 1;
 In the example, the value of x will be 11, not 9.This happens because the precedence of * operator is higher than -operator.That is why the expression is evaluated as (3 * 4) - 1 and not 3 * (4 - 1)
 
 Associativity of Operators: If an expression has two operators with similar precedence, the expression is evaluated according to its associativity(either leftto right, or right to left)
+
+25. conditional statements:
+if, else if, else
+switch
+
+26.
+while loop, for loop, do while loop
+while(condition){
+    
+}
