@@ -1,0 +1,17 @@
+#Java
+1. Everything is written inside a class in JAVA
+2. Class name and file name should be same.
+3. Main is a function.
+4. Java compiler search's for a main function first while executing the program.
+5. ; statement terminator
+6. After writing code via terminal we compile our code: 
+javac JavaBasics.java    //javac calls the compiler.
+java JavaBasics.java
+7. Variables like a,b,c, these are the names of variables and can be changed 
+8. all names are called identifiers like a,b,c className, main and print function names.
+8. Literals like 0,1,2,3,4,5  and character literals like 'a', 'b','@','*' can't be changed.
+9. A memory has a block which contains its name, value and address.
+10. Java is a typed language which means before defining or declaring anything we need to define a data type.
+Data types in Java: a. Primitive    b. Non-Primitive.
+ Primitive includes: byte, short, char, boolean, int, long, float, double and Non-Primitives includes: String, array, class, object, Inteface.
+11. Java is a strict language so it is more safer.
