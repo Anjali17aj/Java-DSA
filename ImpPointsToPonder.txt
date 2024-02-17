@@ -13,5 +13,6 @@ java JavaBasics.java
 9. A memory has a block which contains its name, value and address.
 10. Java is a typed language which means before defining or declaring anything we need to define a data type.
 Data types in Java: a. Primitive    b. Non-Primitive.
- Primitive includes: byte, short, char, boolean, int, long, float, double and Non-Primitives includes: String, array, class, object, Inteface.
-11. Java is a strict language so it is more safer.
+ Primitive includes: byte = 1byte, short = 2bytes, char = 2 bytes [a to z and A-Z  @ % , ], boolean = 1 byte [True or false], int= 4 bytes[-2B - +2B], long = 8 bytes, float = 4 bytes[decimal nums], double = 8 bytes and Non-Primitives includes: String, array, class, object, Inteface.Every data type has its own size in the memory.
+ 11. Inside memory the spaces are measured in terms of bytes. 1byte = 8bits. Bit means single information 0 or 1. Combination of 8 bits is 1 byte
+12. Java is a strict language so it is more safer.
