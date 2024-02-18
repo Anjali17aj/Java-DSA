@@ -33,3 +33,25 @@ If one operand is long, float, double the whole expression is promoted to long, 
 21.
 Source code saved in a file (.java) -> compiler is a program available inside JDK. compiler takes the source code and convert it into byte code(.class) is called compilation in ths stage we get errors if any-> JVM Java virtual machine takes the byte code and converts it into Native code which is execution.(windos mac linux every os has different type of native code i.e 0 1 machine code) therefore java is called a portable language.
 java byte code can be used in any os system.
+
+22. Expression sum=a+b, operand ab, operator+-
+23. different types of operators:
+a. Arithmetic operators
+-Binary means 2
+ +-/*%    
+ % modulo calculates remainder eg. 10%5=0
+-unary means 1    a++=>a=a+1 
+ ++ --
+ pre Increment -> ++a    1. value change then value used
+ post Increment -> a++    2. old value used then value changed
+ 
+ (ternary).
+ b.Relational operators ==,!=,>,<,>=,<= 
+ c.logical operators && || !
+ d.Bitwise operators(Bit manipulation)
+ e.Assignment operators:  A=A+10   B=B-5
+
+ 24. Operator precedence determines the order in which the operators in an expression are evaluated.For eg –int x = 3 * 4 - 1;
+In the example, the value of x will be 11, not 9.This happens because the precedence of * operator is higher than -operator.That is why the expression is evaluated as (3 * 4) - 1 and not 3 * (4 - 1)
+
+Associativity of Operators: If an expression has two operators with similar precedence, the expression is evaluated according to its associativity(either leftto right, or right to left)
