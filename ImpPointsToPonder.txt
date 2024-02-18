@@ -16,3 +16,20 @@ Data types in Java: a. Primitive    b. Non-Primitive.
  Primitive includes: byte = 1byte, short = 2bytes, char = 2 bytes [a to z and A-Z  @ % , ], boolean = 1 byte [True or false], int= 4 bytes[-2B - +2B], long = 8 bytes, float = 4 bytes[decimal nums], double = 8 bytes and Non-Primitives includes: String, array, class, object, Inteface.Every data type has its own size in the memory.
  11. Inside memory the spaces are measured in terms of bytes. 1byte = 8bits. Bit means single information 0 or 1. Combination of 8 bits is 1 byte
 12. Java is a strict language so it is more safer.
+13. To take input we create a scanner class object.
+14.util is a package with different classes.
+15. sc.next() takes only a word and sc.nextLine() takes whole sentence, para.
+16. Java automatically takes a decimal value to double so we use executing: 38.9f to use it as float.
+17. Type conversion/ implicit conversion: happens when type is compatible
+long cannot be converted to int but int can be. 
+byte -> short -> int -> float -> long -> double.
+byte can be stored in short but short can't be stored in byte. (chote ko bade mei store krna is possible but bade ko chote storage mei it is not possible Simple!)
+18. Type casting/explicit conversion: It is that type of conversion that java doesn't allow. The Values that we are trying to make it short but java says you'll get lossy data.
+float a = 25.0;
+int b = a;
+19. Type promotion: Java automatically promotes each byte, short or char operand to int when evaluating an expression.
+If one operand is long, float, double the whole expression is promoted to long, float, double respectively.
+20. JDK: java development kit inside jdk there are lots of development tools. JRE(Java runtime environment) it is a module of jdk which contains JVM + Libraries. because of all these tools inside JRE a java code runs.
+21.
+Source code saved in a file (.java) -> compiler is a program available inside JDK. compiler takes the source code and convert it into byte code(.class) is called compilation in ths stage we get errors if any-> JVM Java virtual machine takes the byte code and converts it into Native code which is execution.(windos mac linux every os has different type of native code i.e 0 1 machine code) therefore java is called a portable language.
+java byte code can be used in any os system.
