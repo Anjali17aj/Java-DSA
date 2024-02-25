@@ -68,3 +68,19 @@ while loop, for loop, do while loop
 while(condition){
     
 }
+27. Patterns: 
+a.lines eg. 4
+outer loop 4 times.
+b.number of lines(i)
+inner loop -> i times
+c.  what to print?  -> *
+
+28. Function/methods -> block of code which is reusable.
+public static-> access modifier oops  void->empty main->keyword (String->string input args-> argument []-> array)
+functions which are written inside class is called the method of the class.
+Parameters:  function's input inside paranthesis
+
+29. Parameters which are written in function definition is called parameters or formal parameters
+and   Values which are passed  when we are calling a function is called arguments or actual parameters.
+
+30. functions also occupy memory in stack (call stack).
