@@ -1,4 +1,7 @@
 #Java
+-> corner cases are special cases and condition written for any program.Corner cases often represent rare, unusual, or extreme scenarios that were not considered during the initial design phase. They can arise from unexpected user inputs, unusual system configurations, or interactions with other systems.
+These cases frequently occur at the boundaries of an input range or operational parameters
+
 1. Everything is written inside a class in JAVA
 2. Class name and file name should be same.
 3. Main is a function.
@@ -84,3 +87,74 @@ Parameters:  function's input inside paranthesis
 and   Values which are passed  when we are calling a function is called arguments or actual parameters.
 
 30. functions also occupy memory in stack (call stack).
+
+31. call by value: is mostly used in java.In pass by value: any change in a function will not reflect inside a main function.
+value of calling function(main func) is passed as a copy. 
+call by reference: is mostly used in c++ which means original value is passed and will be reflected in calling functions/main function if small functions makes any change in  the variable.
+
+32. user defined and inbuilt methods
+user defined methods are the methods created by us. we program those.
+inbuilt methods are exists on their own in java. 
+math
+-> pow.
+-> sqrt.
+-> max.
+-> min.
+
+33. Function overloading : Multiple func with same name but diff parameters
+
+34. Binary number system:(0,1) is 2
+Decimal number system(0-9): Maths number system is decimal number system because all diidgits comes from 0 to 9. dec means 10
+If we want to take out any last digit of a num then divide it BY 10.
+
+35.SCOPES:
+Method Scope: eg: a variable will be written in a particular function and cannot be used inside another function. Variable declared inside Main function can be used anywhere.
+Block scope: {  //codes   
+                }
+Class scope: access modifier-> public, protected private.
+
+36. ARRAYS:
+int size 4
+-Operations in array: create, input, output, update.
+-Creating an array:
+dataType arrayName[] = new dataType[size];
+int marks[] = new int[60];
+int nums[] = {1,22,3};
+int moreNumbers[] = {4,5,6};
+string fruits[] = {"app","man","ban"};
+-Arrays are 
+
+STRINGS: strings are immutable i.e it cannot be changed. A new String is created with a change. Old string cannot be changed.
+character type array stores different characters: char a[] = {'a','b','c'};
+
+String array:  String s = "abcd"; 
+
+37. Object oriented programming:-
+Class: Class is a user defined blueprint from which objects are created. Class has attributes and functions. class is a group of objects. Collection of simillar properties. Name of a class is written in capitals and name of functions starts with small letters.
+
+Object: basic unit of object oriented programming. Entities of the real world.
+
+to access properties we use dot operator.
+
+Access Modifiers: defines the access type of the method i.e from where it can be accessed.
+public, private, default, protected.
+private things are private and cannot be accessed by other functions so we need to call functions along with the object
+
+
+38. Getters & Setters:
+2 types of functions are created with objects 
+1. Getters   2. Setters
+
+
+THIS: when object is calling a function. Inside a function if any object's property is referred inside a function so we use this keyword
+this keyword means current object.
+class pen{
+    int tip; //pen class variable
+
+
+    void setTip(int tip){ //int tip is external variable
+                  ^
+                  |
+this.tip = tip; --|    //this.tip is a pen class variable and tip is external variable
+    }
+}
